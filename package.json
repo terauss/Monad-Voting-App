@@ -1,0 +1,46 @@
+{
+  "name": "happy-vote-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^4.3.7",
+    "@gemini-wallet/core": "^0.3.2",
+    "@metamask/sdk": "^0.34.0",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.0",
+    "@reown/appkit": "^1.8.11",
+    "@reown/appkit-adapter-wagmi": "^1.8.11",
+    "@tanstack/query-core": "^5.90.5",
+    "@tanstack/react-query": "^5.90.5",
+    "@wagmi/core": "^2.22.1",
+    "@walletconnect/ethereum-provider": "^2.9.0",
+    "@walletconnect/modal": "^2.6.2",
+    "ethers": "^6.13.7",
+    "lit": "^2.8.0",
+    "next": "^15.1.0",
+    "porto": "^0.2.37",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.181.2",
+    "viem": "^2.38.3",
+    "wagmi": "^3.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.181.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

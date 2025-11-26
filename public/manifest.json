@@ -1,0 +1,21 @@
+{
+  "name": "Monad Voting App",
+  "short_name": "Monad Voting App",
+  "description": "A fun app to vote on your mood!",
+  "start_url": "https://monad-voting-app.vercel.app",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00f0a1",
+  "icons": [
+    {
+      "src": "https://monad-voting-app.vercel.app/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://monad-voting-app.vercel.app/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

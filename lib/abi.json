@@ -1,0 +1,48 @@
+[
+  {
+    "inputs": [],
+    "name": "getVotePercentages",
+    "outputs": [
+      { "internalType": "uint256", "name": "happyPercentage", "type": "uint256" },
+      { "internalType": "uint256", "name": "sadPercentage", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "bool", "name": "isHappy", "type": "bool" }],
+    "name": "vote",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "address", "name": "user", "type": "address" }],
+    "name": "canVote",
+    "outputs": [
+      { "internalType": "bool", "name": "", "type": "bool" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "address", "name": "user", "type": "address" }],
+    "name": "timeUntilNextVote",
+    "outputs": [
+      { "internalType": "uint256", "name": "", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getVotes",
+    "outputs": [
+      { "internalType": "uint256", "name": "happy", "type": "uint256" },
+      { "internalType": "uint256", "name": "sad", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
+
